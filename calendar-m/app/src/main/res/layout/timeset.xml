@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    android:id="@+id/layout2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始时间"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:layout_x="10px"
+        android:layout_y="32px"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="重复响起间隔"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        android:layout_x="10px"
+        android:layout_y="172px"
+        >
+    </TextView>
+
+
+
+    <EditText
+        android:id="@+id/mEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="40dp"
+        android:layout_y="110dp"
+        android:text="15"
+        android:textSize="16sp"></EditText>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="74dp"
+        android:layout_y="121dp"
+        android:text="秒"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"></TextView>
+</AbsoluteLayout>

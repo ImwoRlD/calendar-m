@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_2"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:text="列表"
+        android:textColor="#333"/>
+
+    <ListView
+        android:id="@+id/listview"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </ListView>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+
+      <Button
+        android:id="@+id/about_btn"
+        android:layout_width="52dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="20dp"
+        android:background="#00ffffff"
+        android:scaleType="center"
+        android:layout_marginTop="4dp"
+          android:text="关于"
+        />
+
+        <TextView
+            android:id="@+id/note_num"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:paddingTop="2dp"
+            android:textSize="18sp"
+            android:textColor="#333"
+            android:layout_centerInParent="true"
+            android:text="@string/app_title"
+            />
+
+
+        <Button
+            android:id="@+id/write_btn"
+            android:layout_width="52dp"
+            android:layout_height="32dp"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="20dp"
+            android:background="#00ffffff"
+            android:scaleType="center"
+            android:layout_marginTop="4dp"
+            android:text="新建"
+            />
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

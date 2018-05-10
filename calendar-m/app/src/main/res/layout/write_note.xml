@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/screen_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg6"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:src="@drawable/ic_back"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="5dp"
+            android:scaleType="center"
+            android:layout_marginTop="6dp"
+            android:layout_width="52dp"
+            android:layout_height="32dp" />
+
+
+        <TextView
+            android:id="@+id/complete_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:textSize="18sp"
+            android:textColor="#ec6d51"
+            android:text="完成"
+            />
+
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/note_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#333"
+        android:textCursorDrawable="@null"
+        android:background="@null"/>
+
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_0"
+    >
+
+    <DigitalClock
+        android:id="@+id/dClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="111dp"
+        android:layout_y="4dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="40sp">
+
+    </DigitalClock>
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="32dp"
+        android:layout_y="99dp"
+        android:text="闹钟设置处"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp">
+
+    </TextView>
+
+
+    <Button
+        android:id="@+id/mButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="207dp"
+        android:layout_y="87dp"
+        android:text="设定闹钟"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp">
+
+    </Button>
+
+
+    <Button
+        android:id="@+id/mButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="209dp"
+        android:layout_y="167dp"
+        android:text="移除闹钟"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp">
+
+    </Button>
+
+
+    <TextView
+        android:id="@+id/setTime1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="36dp"
+        android:layout_y="182dp"
+        android:text="目前无设定"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp">
+
+    </TextView>
+
+
+</AbsoluteLayout>
